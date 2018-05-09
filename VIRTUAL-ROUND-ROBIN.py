@@ -84,6 +84,7 @@ def virtual_round_robin():
             LIST_OF_PROCESSES[i].set_arrival_time(arrival_time)
             
     quantum_time=int(input("ENTER THE TIME SLICE FOR PROCESSES:"))
+    input=int(input("ENTER THE I/O TIME FOR PROCESSES:"))
     #LIST_OF_PROCESSES.set_quantum_time(quantum_time)
     for m in range(0,count):
            for n in range(0,count-1):
